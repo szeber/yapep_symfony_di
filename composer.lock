@@ -1,0 +1,268 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f5debb3199b3823bacea74424a29a3bf",
+    "packages": [
+        {
+            "name": "symfony/config",
+            "version": "2.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Config.git",
+                "reference": "1e1d6afed4dcb975027f0e480454e8ce9ce57879"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/1e1d6afed4dcb975027f0e480454e8ce9ce57879",
+                "reference": "1e1d6afed4dcb975027f0e480454e8ce9ce57879",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/filesystem": "~2.3|~3.0.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-01 14:16:54"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "2.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/DependencyInjection.git",
+                "reference": "74c4cdac65c2ea905734a01e612eff1e47f371f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/74c4cdac65c2ea905734a01e612eff1e47f371f6",
+                "reference": "74c4cdac65c2ea905734a01e612eff1e47f371f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "conflict": {
+                "symfony/expression-language": "<2.6"
+            },
+            "require-dev": {
+                "symfony/config": "~2.2",
+                "symfony/expression-language": "~2.6",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/yaml": "~2.1"
+            },
+            "suggest": {
+                "symfony/config": "",
+                "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-01 11:25:50"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "eda46c137125a18f951fcf73248ce3edb9d37330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/eda46c137125a18f951fcf73248ce3edb9d37330",
+                "reference": "eda46c137125a18f951fcf73248ce3edb9d37330",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-01 20:40:29"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/4bfbe0ed3909bfddd75b70c094391ec1f142f860",
+                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-01 11:25:50"
+        },
+        {
+            "name": "szeber/yapep_base",
+            "version": "0.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szeber/yapep_base.git",
+                "reference": "539d4d1ffffcb3a695fbaf2c5bdbb1461d51ae6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szeber/yapep_base/zipball/539d4d1ffffcb3a695fbaf2c5bdbb1461d51ae6d",
+                "reference": "539d4d1ffffcb3a695fbaf2c5bdbb1461d51ae6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": ">=1.1.0",
+                "mockery/mockery": ">=0.7.2",
+                "phpunit/phpunit": "3.7.x-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "YapepBase": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Zsolt Szeberenyi",
+                    "email": "szeber@yapep.org"
+                }
+            ],
+            "description": "YAPEP Base framework",
+            "time": "2015-05-25 15:13:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "szeber/yapep_base": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

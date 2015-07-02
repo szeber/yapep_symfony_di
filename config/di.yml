@@ -1,0 +1,9 @@
+services:
+  common.testDao:
+    class: Common\Dao\TestDao
+
+  common.testBo:
+    class: Common\BusinessObject\TestBo
+    arguments:
+      - @common.testDao
+
