@@ -1,6 +1,0 @@
-services:
-  test.testBo:
-    class: Test\BusinessObject\TestBo
-    arguments:
-      - @common.testDao
-

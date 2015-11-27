@@ -4,6 +4,3 @@ services:
 
   common.testBo:
     class: Common\BusinessObject\TestBo
-    arguments:
-      - @common.testDao
-

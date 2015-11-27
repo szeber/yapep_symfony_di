@@ -1,0 +1,12 @@
+services:
+    www.indexController:
+        class: Www\Controller\IndexController
+        tags: [{name: controller}]
+
+    www.testBo:
+        class: Www\BusinessObject\TestBo
+
+    yapepBase.viewDo:
+        class: YapepBase\View\ViewDo
+        arguments:
+            - %yapepbase.mimetype.html%

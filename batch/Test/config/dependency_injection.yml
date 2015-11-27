@@ -1,0 +1,6 @@
+services:
+    test.testBo:
+        class: Test\BusinessObject\TestBo
+
+    test.testScript:
+        class: Test\BatchScript\TestScript
