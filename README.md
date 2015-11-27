@@ -1,4 +1,8 @@
-# Installation
+# This is a demo application using the symfony DI container in the YapepBase framework
+
+The demo has a web application (app/www) and a batch application (batch/Test/batch/test.php. The web application can be configured via Docker.
+
+## Installation
 
 * Install docker (http://docker.com)
 * cd into the project's directory
