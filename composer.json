@@ -5,7 +5,7 @@
   "license": "bsd",
   "require": {
     "php": ">=5.3.0",
-    "szeber/yapep_base": "0.4.x-dev",
+    "szeber/yapep_base": "dev-symfony_di",
     "symfony/dependency-injection": "~2.7.1",
     "symfony/yaml": "~2.7.1",
     "symfony/config": "~2.7"
