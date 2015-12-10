@@ -2,6 +2,7 @@
 .project
 .buildpath
 .idea
+.vagrant
 /nbproject/*
 vendor
 composer.phar

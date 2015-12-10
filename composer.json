@@ -9,5 +9,8 @@
     "symfony/dependency-injection": "~2.7.1",
     "symfony/yaml": "~2.7.1",
     "symfony/config": "~2.7"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "^85.0"
   }
 }
