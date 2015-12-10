@@ -8,7 +8,8 @@
     "szeber/yapep_base": "dev-symfony_di",
     "symfony/dependency-injection": "~2.7.1",
     "symfony/yaml": "~2.7.1",
-    "symfony/config": "~2.7"
+    "symfony/config": "~2.7",
+    "ext-mbstring": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "^85.0"
